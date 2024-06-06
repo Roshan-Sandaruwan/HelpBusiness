@@ -1,4 +1,4 @@
-package com.roshan.helpbusinessapp;
+package com.roshan.helpbusiness;
 
 import org.junit.Test;
 
