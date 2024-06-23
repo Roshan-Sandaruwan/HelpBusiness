@@ -11,7 +11,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="80dp"
         android:fontFamily="@font/oswald"
         android:text="Log In"
         android:textColor="#7AA2E3"
@@ -81,12 +81,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginTop="32dp"
         android:fontFamily="sans-serif"
         android:text="Don’t have an account ?"
         android:textColor="#000"
         android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@+id/loginBtn"
         app:layout_constraintTop_toBottomOf="@+id/loginBtn" />
 
@@ -96,13 +95,12 @@
         android:layout_height="wrap_content"
 
         android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="60dp"
-        android:layout_marginBottom="32dp"
         android:fontFamily="sans-serif"
         android:text="Register"
         android:textColor="#7AA2E3"
         android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/loginBtn"
         app:layout_constraintStart_toEndOf="@+id/donthaveaccount"
         app:layout_constraintTop_toBottomOf="@+id/loginBtn" />
