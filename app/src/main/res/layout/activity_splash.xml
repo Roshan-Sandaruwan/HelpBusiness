@@ -11,7 +11,7 @@
         android:id="@+id/spRegisterBtn"
         android:layout_width="150dp"
         android:layout_height="40dp"
-        android:layout_marginStart="36dp"
+        android:layout_marginTop="300dp"
         android:layout_marginEnd="32dp"
         android:background="@drawable/sp_register_button"
         android:fontFamily="@font/oswald"
@@ -19,23 +19,20 @@
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.023"
-        app:layout_constraintStart_toEndOf="@+id/spLoginBtn"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.904" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="276dp"
         android:fontFamily="@font/oswald"
         android:text="HelpBusiness"
         android:textColor="#7AA2E3"
         android:textSize="36sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -44,14 +41,13 @@
         android:layout_width="150dp"
         android:layout_height="40dp"
         android:layout_marginStart="32dp"
+        android:layout_marginTop="300dp"
         android:background="@drawable/sp_login_button"
         android:fontFamily="@font/oswald"
         android:text="Log in"
         android:textAllCaps="false"
         android:textColor="#7AA2E3"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.904" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 </androidx.constraintlayout.widget.ConstraintLayout>
