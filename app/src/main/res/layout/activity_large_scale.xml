@@ -111,6 +111,7 @@
                     android:layout_height="32dp"
                     android:fontFamily="sans-serif"
                     android:text="Get 20% OFF on your next purchase. Buy soon before it’s gone!"
+                    android:textColor="@color/black"
                     android:textSize="12sp"
                     app:layout_constraintBottom_toTopOf="@+id/button"
                     app:layout_constraintStart_toStartOf="@+id/textView14"
