@@ -6,4 +6,6 @@
     <color name="primary_black">#33363F</color>
     <color name="light_blue">#E3EEFF</color>
     <color name="cream_color">#F8F6E3</color>
+
+    <color name="yellow">#FFC106</color>
 </resources>

@@ -71,7 +71,7 @@
         app:layout_constraintTop_toBottomOf="@+id/button2" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/largeScaleBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
@@ -91,8 +91,8 @@
         android:text="Large-scale businesses are larger in size, with more employees, higher revenue, and greater resources."
         android:textAlignment="center"
         android:textColor="#000000"
-        app:layout_constraintEnd_toEndOf="@+id/button3"
-        app:layout_constraintStart_toStartOf="@+id/button3"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        app:layout_constraintEnd_toEndOf="@+id/largeScaleBtn"
+        app:layout_constraintStart_toStartOf="@+id/largeScaleBtn"
+        app:layout_constraintTop_toBottomOf="@+id/largeScaleBtn" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
