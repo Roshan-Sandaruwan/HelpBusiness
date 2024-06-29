@@ -4,14 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F8F6E3"
     tools:context=".Activity.BusinessTypeActivity">
 
     <TextView
         android:id="@+id/businessTypeText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="64dp"
         android:fontFamily="@font/oswald"
         android:text="Buisness Type"
         android:textColor="#7AA2E3"
@@ -26,7 +25,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:fontFamily="@font/oswald"
+        android:fontFamily="sans-serif-medium"
         android:text="Who are you ?"
         android:textColor="#000"
         android:textSize="24sp"
@@ -65,7 +64,7 @@
         android:text="Small-scale businesses are smaller in size, often with fewer employees, lower revenue, and limited resources."
         android:textAlignment="center"
         android:textColor="#000000"
-        android:textSize="14sp"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="@+id/smallScaleBtn"
         app:layout_constraintStart_toStartOf="@+id/smallScaleBtn"
         app:layout_constraintTop_toBottomOf="@+id/smallScaleBtn" />
@@ -75,8 +74,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="I’m a Large-scale businessmen"
         android:background="@drawable/large_button"
+        android:text="I’m a Large-scale businessmen"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="@+id/textView10"
@@ -91,6 +90,7 @@
         android:text="Large-scale businesses are larger in size, with more employees, higher revenue, and greater resources."
         android:textAlignment="center"
         android:textColor="#000000"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="@+id/largeScaleBtn"
         app:layout_constraintStart_toStartOf="@+id/largeScaleBtn"
         app:layout_constraintTop_toBottomOf="@+id/largeScaleBtn" />
