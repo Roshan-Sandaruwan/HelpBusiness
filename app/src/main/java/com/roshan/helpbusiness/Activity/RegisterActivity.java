@@ -1,4 +1,4 @@
-package com.roshan.helpbusiness;
+package com.roshan.helpbusiness.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,6 +9,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.roshan.helpbusiness.R;
 
 public class RegisterActivity extends AppCompatActivity {
 

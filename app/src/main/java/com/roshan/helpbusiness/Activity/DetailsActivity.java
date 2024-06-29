@@ -1,14 +1,16 @@
-package com.roshan.helpbusiness;
+package com.roshan.helpbusiness.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class LargeScaleActivity extends AppCompatActivity {
+import com.roshan.helpbusiness.R;
+
+public class DetailsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_large_scale);
+        setContentView(R.layout.activity_details);
     }
 }

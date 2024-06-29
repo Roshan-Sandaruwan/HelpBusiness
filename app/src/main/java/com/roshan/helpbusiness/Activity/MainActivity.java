@@ -1,8 +1,10 @@
-package com.roshan.helpbusiness;
+package com.roshan.helpbusiness.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.roshan.helpbusiness.R;
 
 public class MainActivity extends AppCompatActivity {
 

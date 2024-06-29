@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F8F6E3"
-    tools:context=".SplashActivity">
+    tools:context=".Activity.SplashActivity">
 
     <Button
         android:id="@+id/spRegisterBtn"
